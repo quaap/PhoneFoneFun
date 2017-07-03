@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">PhoneFoneFun</string>
+
+    <string name="hello1">Hello!</string>
+
+    <string-array name="hello">
+        <item>Hello?</item>
+        <item>Hi!</item>
+        <item>Howdy!</item>
+        <item>Ahoy hoy!</item>
+        <item>What\'s up?</item>
+    </string-array>
+
+    <string-array name="bye">
+        <item>Bye</item>
+        <item>Bye bye!</item>
+        <item>Good-bye</item>
+        <item>See ya later</item>
+    </string-array>
+
+    <string-array name="convo">
+        <item>Hi!</item>
+        <item>How are you doing?</item>
+        <item>I\'m doing great!</item>
+        <item>Do you like bananas?</item>
+        <item>I like bananas</item>
+        <item>What\'s your favorite color?</item>
+        <item>My favorite color is purple.</item>
+        <item>Where do fish come from?</item>
+        <item>Do you see any trees?</item>
+        <item>A kangaroo is a marsupial</item>
+        <item>How many noses do you have?</item>
+        <item>I have 3 noses.</item>
+
+        <item>Let\'s count!</item>
+        <item>1, 2, 3, 4, 5</item>
+        <item>6, 7, 8, 9, 10</item>
+        <item>Thanks for counting with me!</item>
+
+
+        <item>Let\'s sing a song!</item>
+
+        <item>A B C D E F G </item>
+        <item>H I J K L M N O P</item>
+        <item>Q R S. T U V</item>
+        <item>W X Y AND Z</item>
+        <item>Now I know my A B sees</item>
+        <item>Next time won\'t you sing with me.</item>
+
+        <item>Let\'s sing another!</item>
+
+        <item>Mary had a little lamb.</item>
+        <item>Little lamb. Little lamb.</item>
+        <item>Mary had a little lamb.</item>
+        <item>Its fleece was white as snow.</item>
+
+        <item>Let\'s do another!</item>
+
+        <item>I\'m a little tea pot. Short and stout</item>
+        <item>Here is my handle</item>
+        <item>Here is my spout</item>
+        <item>when I get all steamed up</item>
+        <item>I just shout</item>
+        <item>Tip, me over and pour me out.</item>
+        <item>Bye bye.</item>
+        <item> </item>
+    </string-array>
+
+    <string name="seis">6. Hi, you\'ve reached the number of the beast. All circles are full. Please call back later.</string>
+
+    <string name="about">This program is open-source software. The sourcecode and license can be found at https://github.com/quaap/PhoneFoneFun</string>
+
+    <string name="name_link">Copyright 2017 Tom Kliethermes. . http://quaap.com/D/programming-index?from=phonefone</string>
+</resources>
