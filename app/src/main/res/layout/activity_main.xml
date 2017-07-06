@@ -78,7 +78,7 @@
             android:layout_weight=".5"
             android:checked="false"
             android:gravity="center"
-            android:switchMinWidth="100dp"
+            android:switchMinWidth="50dp"
             android:thumb="@android:drawable/btn_star_big_on" />
 
     </LinearLayout>
