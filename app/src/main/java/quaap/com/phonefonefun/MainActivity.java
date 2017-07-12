@@ -123,17 +123,28 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
 
     private int sixcount = 0;
 
+    private String history = "";
+
     @Override
     public void onClick(View v) {
         String key = (String)v.getTag();
         int tone = -1;
         int time = 400;
         if (key!=null) {
-            Log.d("Button", key);
+            //Log.d("Button", key);
             String speak = "";
             if (Character.isDigit(key.codePointAt(0))) {
                 tone = Integer.parseInt(key);
                 speak = key;
+                history += key;
+
+                if (history.length()>10) {
+                    history = history.substring(history.length()-10,history.length());
+                }
+
+                if (history.endsWith("8675309")) {
+                    speak = "nigh e ayn";
+                }
 
             } else if (key.equals("#")) {
                 //tone = ToneGenerator.TONE_DTMF_P;
