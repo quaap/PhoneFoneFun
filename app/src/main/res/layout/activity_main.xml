@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
             android:id="@+id/about_link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About" />
+            android:text="@string/aboutlab" />
 
         <TextView
             android:id="@+id/display"
@@ -46,7 +45,7 @@
             android:background="@android:color/holo_green_light"
             android:onClick="onClick"
             android:tag="hello"
-            android:text="Hello"
+            android:text="@string/hello"
             android:textSize="24sp" />
 
         <Button
@@ -57,7 +56,7 @@
             android:background="@android:color/holo_red_dark"
             android:onClick="onClick"
             android:tag="bye"
-            android:text="Bye"
+            android:text="@string/bye"
             android:textSize="24sp" />
 
         <Button
@@ -68,7 +67,7 @@
             android:background="@android:color/holo_blue_bright"
             android:onClick="onClick"
             android:tag="ring"
-            android:text="Ring"
+            android:text="@string/ring"
             android:textSize="24sp" />
 
         <Switch

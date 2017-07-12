@@ -17,7 +17,7 @@ package quaap.com.phonefonefun;
  *
  *   You should have received a copy of the GNU General Public License
  *   along with AudioMeter.  If not, see <http://www.gnu.org/licenses/>.
- */
+ **/
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -31,7 +31,6 @@ import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.os.Bundle;
 
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
@@ -121,7 +120,6 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
         super.onPause();
     }
 
-    private int sixcount = 0;
 
     private String history = "";
 
@@ -144,6 +142,8 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
 
                 if (history.endsWith("8675309")) {
                     speak = getString(R.string.nenny);
+                } else if (history.endsWith("666")) {
+                    speak = getString(R.string.seis);
                 } else if (history.endsWith("911")) {
                     speak = getString(R.string.nine11);
                 } else if (history.endsWith("912")) {
@@ -158,6 +158,8 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
                     speak = getString(R.string.five55);
                 } else if (history.endsWith("007")) {
                     speak = getString(R.string.bond);
+                } else if (history.endsWith("123123")) {
+                    speak = getString(R.string.one23);
                 }
 
             } else if (key.equals("#")) {
@@ -188,15 +190,6 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
                         ttv.speak(speak);
                     } else {
                         tonegen.startTone(ToneGenerator.TONE_DTMF_P, 400);
-                    }
-                    if (tone==6) {
-                        sixcount++;
-                        if (sixcount==3) {
-                            ttv.speak(getText(R.string.seis).toString());
-                            sixcount=0;
-                        }
-                    } else {
-                        sixcount=0;
                     }
                 } else {
                     tonegen.startTone(tone, time);
