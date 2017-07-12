@@ -159,7 +159,11 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
 
             if (tone > -1) {
                 if (switchPhone.isChecked() && !speak.isEmpty()) {
-                    ttv.speak(speak);
+                    if (ttv.isReady()) {
+                        ttv.speak(speak);
+                    } else {
+                        tonegen.startTone(ToneGenerator.TONE_DTMF_P, 400);
+                    }
                     if (tone==6) {
                         sixcount++;
                         if (sixcount==3) {
