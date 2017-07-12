@@ -143,7 +143,21 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
                 }
 
                 if (history.endsWith("8675309")) {
-                    speak = "nigh e ayn";
+                    speak = getString(R.string.nenny);
+                } else if (history.endsWith("911")) {
+                    speak = getString(R.string.nine11);
+                } else if (history.endsWith("912")) {
+                    speak = getString(R.string.nine12);
+                } else if (history.endsWith("999")) {
+                    speak = getString(R.string.nine99);
+                } else if (history.endsWith("54321")) {
+                    speak = getString(R.string.blast);
+                } else if (history.endsWith("321")) {
+                    speak = getString(R.string.contact);
+                } else if (history.endsWith("555")) {
+                    speak = getString(R.string.five55);
+                } else if (history.endsWith("007")) {
+                    speak = getString(R.string.bond);
                 }
 
             } else if (key.equals("#")) {
