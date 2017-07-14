@@ -1,4 +1,4 @@
-package quaap.com.phonefonefun;
+package com.quaap.phonefonefun;
 
 /**
  *   Copyright 2017 Tom Kliethermes

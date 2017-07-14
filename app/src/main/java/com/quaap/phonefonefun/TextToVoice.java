@@ -1,4 +1,4 @@
-package quaap.com.phonefonefun;
+package com.quaap.phonefonefun;
 
 import android.content.Context;
 import android.os.Build;
