@@ -196,7 +196,7 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
                     } else {
                         tonegen.startTone(tone, time);
                     }
-                } catch (IllegalStateException e) {
+                } catch (Throwable e) {
                     Log.e("FFF", e.getMessage(), e);
                 }
                 display.append(key);
