@@ -31,6 +31,7 @@ import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
@@ -185,16 +186,19 @@ public class MainActivity extends Activity implements Button.OnClickListener, Se
 
 
             if (tone > -1) {
-                if (switchPhone.isChecked() && !speak.isEmpty()) {
-                    if (ttv.isReady()) {
-                        ttv.speak(speak);
+                try {
+                    if (switchPhone.isChecked() && !speak.isEmpty()) {
+                        if (ttv.isReady()) {
+                            ttv.speak(speak);
+                        } else {
+                            tonegen.startTone(ToneGenerator.TONE_DTMF_P, 400);
+                        }
                     } else {
-                        tonegen.startTone(ToneGenerator.TONE_DTMF_P, 400);
+                        tonegen.startTone(tone, time);
                     }
-                } else {
-                    tonegen.startTone(tone, time);
+                } catch (IllegalStateException e) {
+                    Log.e("FFF", e.getMessage(), e);
                 }
-
                 display.append(key);
                 if (display.length()>30) {
                     display.setText(display.getText().subSequence(display.length() - 30, display.length() ));
