@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">PhoneFoneFun</string>
+
+    <string name="hello1">Hallo!</string>
+
+    <string-array name="hello">
+        <item>Hallo?</item>
+        <item>Hoi!</item>
+        <item>Howdy!</item>
+        <item>Ahoy hoy!</item>
+        <item>Alles kits?</item>
+    </string-array>
+
+    <string-array name="bye">
+        <item>Doei</item>
+        <item>Doei-doei!</item>
+        <item>Tot ziens</item>
+        <item>Tot later</item>
+    </string-array>
+
+    <string-array name="convo">
+        <item>Hoi!</item>
+        <item>Hoe gaat het?</item>
+        <item>Met mij gaat het goed!</item>
+        <item>Houd je van bananen?</item>
+        <item>Ik houd van bananen.</item>
+        <item>Wat is je favoriete kleur?</item>
+        <item>Mijn favoriete kleur is paars.</item>
+        <item>Waar komen vissen vandaan?</item>
+        <item>Zie je ergens bomen?</item>
+        <item>Een kangaroe is een buideldier.</item>
+        <item>Hoeveel neuzen heb je?</item>
+        <item>Ik heb 3 neuzen.</item>
+
+        <item>We gaan tellen!</item>
+        <item>1, 2, 3, 4, 5</item>
+        <item>6, 7, 8, 9, 10</item>
+        <item>Bedankt dat je met me wilde tellen!</item>
+
+
+        <item>We gaan zingen!</item>
+
+        <item>A B C D E F G </item>
+        <item>H I J K L M N O P</item>
+        <item>Q R S. T U V</item>
+        <item>W X Y AND Z</item>
+        <item>doen ook nog mee.</item>
+        <item>Als je goed hebt opgelet, ken je nu het alfabet.</item>
+
+        <item>Laten we samen zingen!</item>
+
+        <item>Mieke heeft een lammetje,</item>
+        <item>lammetje, lammetje.</item>
+        <item>Mieke heeft een lammetje,</item>
+        <item>zijn vachtje is van wol.</item>
+
+        <item>Laten we nog een liedje zingen!</item>
+
+        <item>Ik ben een kleine theepot, rond van buik.</item>
+        <item>Dit is mijn oor</item>
+        <item>en dat is mijn tuit.</item>
+        <item>Als het water kookt,</item>
+        <item>dan roep ik luid:</item>
+        <item>"Til me op en schenk mij uit."</item>
+        <item>Doei-doei.</item>
+        <item> </item>
+    </string-array>
+
+    <string name="seis">6. Hoi, je hebt het nummer van het beest gedraaid. Alle lijnen zijn bezet; bel later terug.</string>
+
+    <string name="about">Deze app is open-bronsoftware. De broncode en licentie zijn te vinden op https://github.com/quaap/PhoneFoneFun</string>
+
+    <string name="name_link">Copyright 2017-2018 Tom Kliethermes.</string>
+    <string name="bond">7. Done diddle little done, diddle little little Done diddle little done, diddle little little.</string>
+    <string name="five55">5. Sorry, het nummer dat je hebt gedraaid is té gek.</string>
+    <string name="contact">1.  Contact! is het geheim, het is het moment, waarop alles gebeurt.</string>
+    <string name="blast">1.  Gaan met die banaan!</string>
+    <string name="nine99">9. Help! Help!</string>
+    <string name="nine11">1. Shorty\'s burnin fire on the dance floor.</string>
+    <string name="nenny">nigh e ayn</string>
+    <string name="nine12">2. Je hebt het échte noodnummer gevonden!</string>
+    <string name="one23">3, Ga!</string>
+    <string name="close">Sluiten</string>
+    <string name="hello">Hallo</string>
+    <string name="bye">Doei</string>
+    <string name="ring">Bellen</string>
+    <string name="aboutlab">Over</string>
+</resources>
