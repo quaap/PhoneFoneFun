@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">PhoneFoneFun</string>
+
+    <string name="hello1">Olá!</string>
+
+    <string-array name="hello">
+        <item>Olá?</item>
+        <item>Oi!</item>
+        <item>Yo!</item>
+        <item>Olaré!</item>
+        <item>Tudo bem?</item>
+    </string-array>
+
+    <string-array name="bye">
+        <item>Adeus</item>
+        <item>Adeuzinho!</item>
+        <item>Tchau</item>
+        <item>Até à próxima</item>
+    </string-array>
+
+    <string-array name="convo">
+        <item>Olá!</item>
+        <item>Como é que estás?</item>
+        <item>Eu estou bem!</item>
+        <item>Gostas de bananas?</item>
+        <item>Eu gosto de bananas</item>
+        <item>Qual é a tua côr preferida?</item>
+        <item>A minha côr preferida é o verde.</item>
+        <item>Onde moram os peixes?</item>
+        <item>Consegues ver alguma árvore?</item>
+        <item>o canguru é um marsupial</item>
+        <item>Quantos narizes tens?</item>
+        <item>Eu tenho 3 narizes.</item>
+
+        <item>Vamos contar!</item>
+        <item>1, 2, 3, 4, 5</item>
+        <item>6, 7, 8, 9, 10</item>
+        <item>Obrigado por contares comigo!</item>
+
+
+        <item>Vamos cantar uma canção!</item>
+
+        <item>A B C D E F G </item>
+        <item>H I J K L M N O P</item>
+        <item>Q R S. T U V</item>
+        <item>W X Y AND Z</item>
+        <item>Now I know my A B sees</item>
+        <item>Next time won\'t you sing with me.</item>
+
+        <item>Vamos cantar outra!</item>
+
+        <item>Mary had a little lamb.</item>
+        <item>Little lamb. Little lamb.</item>
+        <item>Mary had a little lamb.</item>
+        <item>Its fleece was white as snow.</item>
+
+        <item>E mais uma!</item>
+
+        <item>I\'m a little tea pot. Short and stout</item>
+        <item>Here is my handle</item>
+        <item>Here is my spout</item>
+        <item>when I get all steamed up</item>
+        <item>I just shout</item>
+        <item>Tip, me over and pour me out.</item>
+        <item>Bye bye.</item>
+        <item> </item>
+    </string-array>
+
+    <string name="seis">6. Olá, ligou para o número da besta. Todos os circulos estão cheios. Por favor ligue mais tarde.</string>
+
+    <string name="about">Este programa é software de código aberto. O código fonte e a sua licença podem ser encontrados em https://github.com/quaap/PhoneFoneFun</string>
+
+    <string name="name_link">Copyright 2017-2018 Tom Kliethermes.</string>
+    <string name="bond">7. Done diddle little done, diddle little little Done diddle little done, diddle little little.</string>
+    <string name="five55">5. Desculpa, mas o número que marcaste é muito pateta.</string>
+    <string name="contact">1.  Contact! is the secret, It\'s the moment, when everything happens.</string>
+    <string name="blast">1.  Partida!</string>
+    <string name="nine99">9. Socorro! Socorro</string>
+    <string name="nine11">1. Shorty\'s burnin fire on the dance floor.</string>
+    <string name="nenny">nigh e ayn</string>
+    <string name="nine12">2. You\'ve found the real emergency number!</string>
+    <string name="one23">3, Vai!</string>
+    <string name="close">Fechar</string>
+    <string name="hello">Olá</string>
+    <string name="bye">Adeus</string>
+    <string name="ring">Ring</string>
+    <string name="aboutlab">Sobre</string>
+</resources>
